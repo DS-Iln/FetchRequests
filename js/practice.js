@@ -238,7 +238,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // Toggle Blocks Functions (can take 1 arg)
     function showBlock(divs) {
-        console.log(divs);
         if (divs.constructor === Array) {
             divs.forEach(div => {
                 div.classList.remove('_hidden');
