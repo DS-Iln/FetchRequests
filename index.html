@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/practice.css">
+    <title>HardPractice / 28.07-31.08</title>
+</head>
+<body>
+    <div class="page-block main-block">
+        <h1 class="main-block__item main-title"> An error occurred while loading the script file </h1>
+        <p class="main-block__item main-text"> Used Links: <br> https://jsonplaceholder.typicode.com/posts </p>
+    </div>
+    <div class="page-block buttons-block get-button-block">
+        <h2 class="buttons-block__title"> Getting Posts with Users </h2>
+        <div class="buttons-block__inputs">
+            Enter Initial
+            <input type="number" class="buttons-block__input num-input protect1" id="getPostFrom" tabindex="1"> and the
+            Final
+            <input type="number" class="buttons-block__input num-input protect1" id="getPostTo" tabindex="2"> num of
+            userID (Range)
+        </div>
+        <button class="buttons-block__button button get-post" tabindex="3"> Get Posts </button>
+    </div>
+    <div class="page-block buttons-block send-button-block">
+        <h2 class="buttons-block__title"> Sending Posts with Own User data </h2>
+        <div class="buttons-block__inputs">
+            <label> UserID num &rarr;<input type="number" class="buttons-block__input num-input protect2" id="sendPostId"
+                    tabindex="4"> </label>
+            <label> Title &rarr;<input type="text" class="buttons-block__input" id="sendPostTitle" tabindex="5"> </label>
+            <label> Body &rarr;<input type="text" class="buttons-block__input" id="sendPostBody" tabindex="6">
+            </label>
+        </div>
+        <button class="buttons-block__button button send-post" tabindex="7"> Send New Post </button>
+    </div>
+    <script src="js/practice.js"></script>
+</body>
+</html>
